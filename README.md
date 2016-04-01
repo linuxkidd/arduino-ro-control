@@ -44,4 +44,4 @@ The Arduino can be powered via USB, or through the *Vin* pin (by 6 to 12vdc).
 Also of interest... In order to use two of the OLED displays on the same I2C bus, you'll need to be a bit handy with a soldering iron.  On the rear of the display, there's a small SMD jumper soldered across the right hand 'Address' pins (labeled 0x78, although the actual I2C address is 0x3C).  On one display, you'll need to de-solder the jumper, and move it to the left side 'Address' pins (labled 0x7A, again, wrong.. it's actually at 0x3D).
 
 Here's a picture of the jumper in the 0x7A ( 0x3D address ) position:
-![OLED Jumper moved](https://raw.githubusercontent.com/linuxkidd/arduino-ro-control/master/images/2016-03-31.jpg)
+![OLED Jumper moved](https://raw.githubusercontent.com/linuxkidd/arduino-ro-control/master/images/2016-03-31_half_size.jpg)
